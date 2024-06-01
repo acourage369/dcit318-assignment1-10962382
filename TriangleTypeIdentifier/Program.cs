@@ -21,13 +21,13 @@ namespace TriangleTypeIdentifier
             
             //Requesting the lenghts of the Triangle
             Console.WriteLine("Side 1: ");
-            int firstSide = Convert.ToInt32(Console.ReadLine());
+            double firstSide = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Side 2: ");
-            int secondtSide = Convert.ToInt32(Console.ReadLine());
+            double secondtSide = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Side 3: ");
-            int thirdSide = Convert.ToInt32(Console.ReadLine());
+            double thirdSide = Convert.ToDouble(Console.ReadLine());
 
             //Checking if the triange is Equilateral, Isosceles, or Scalene. 
             if (firstSide == secondtSide && secondtSide == thirdSide)
