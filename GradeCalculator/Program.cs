@@ -15,32 +15,33 @@ namespace GradeCalculator
             int grade = int.Parse(Console.ReadLine());
 
             //Grade characters
-            char letterGrade;
+            char gradeLetter;
 
-            //Checking if the inputed number fall in any of the ranges defined 
+            //Checking if the inputed number fall in any of the ranges defined
             if (grade >= 90)
             {
-                letterGrade = 'A';
+                gradeLetter = 'A';
             }
             else if (grade >= 80)
             {
-                letterGrade = 'B';
+                gradeLetter = 'B';
             }
             else if (grade >= 70)
             {
-                letterGrade = 'C';
+                gradeLetter = 'C';
             }
             else if (grade >= 60)
             {
-                letterGrade = 'D';
+                gradeLetter = 'D';
             }
             else
             {
-                letterGrade = 'F';
+                gradeLetter = 'F';
             }
 
+            //Printing out the grade and the grade letter
             Console.WriteLine($"Numerical Grade: {grade}");
-            Console.WriteLine($"Letter Grade: {letterGrade}");
+            Console.WriteLine($"Letter Grade: {gradeLetter}");
         }
     }
 }
