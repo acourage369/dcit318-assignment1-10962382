@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeCalculator", "GradeCal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketPriceCalculator", "TicketPriceCalculator\TicketPriceCalculator.csproj", "{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleTypeIdentifier", "TriangleTypeIdentifier\TriangleTypeIdentifier.csproj", "{09C3299D-8A9B-418D-9239-4CB6104CFF06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C3299D-8A9B-418D-9239-4CB6104CFF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C3299D-8A9B-418D-9239-4CB6104CFF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C3299D-8A9B-418D-9239-4CB6104CFF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C3299D-8A9B-418D-9239-4CB6104CFF06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

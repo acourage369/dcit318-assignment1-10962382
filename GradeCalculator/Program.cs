@@ -22,7 +22,7 @@ namespace GradeCalculator
             Console.WriteLine("Enter a numerical grade between 0 and 100: ");
 
             //Reading the number inputed and saving to grade variable as an integer 
-            int grade = int.Parse(Console.ReadLine());
+            int grade = Convert.ToInt32(Console.ReadLine());
 
             //Grade characters
             char gradeLetter;
