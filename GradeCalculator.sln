@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeCalculator", "GradeCalculator\GradeCalculator.csproj", "{D21B49E3-9CAC-4840-AED2-D33809864A0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketPriceCalculator", "TicketPriceCalculator\TicketPriceCalculator.csproj", "{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D21B49E3-9CAC-4840-AED2-D33809864A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D21B49E3-9CAC-4840-AED2-D33809864A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D21B49E3-9CAC-4840-AED2-D33809864A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D127BC0-8F86-41DA-B26D-9F0292AD9AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
